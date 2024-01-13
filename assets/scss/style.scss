@@ -1,6 +1,11 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 
+// Config
+
+@import "./variables.scss";
+@import "./config.scss";
+
 // Framework
 
-@import url('./bootstrap.scss');
+@import "./bootstrap.scss";
