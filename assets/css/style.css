@@ -116,12 +116,65 @@ nav ul.nav li:hover ul.nav {
   font-weight: bold;
 }
 
+.products {
+  margin: 30px auto;
+}
+.products .products-container {
+  margin: 30px 0;
+}
+.products .products-container .product-items {
+  color: #343A40;
+}
+.products .products-container .product-items h3 {
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}
+.products .products-container .product-items .product-stars {
+  font-size: 10px;
+}
+.products .products-container .product-items .product-stars svg {
+  fill: #FFC107;
+}
+.products .products-container .product-items .product-price {
+  font-size: 16px;
+}
+
+footer {
+  background: #343A40;
+  padding: 25px 0;
+  color: #fff;
+}
+footer h4 {
+  color: #FFC107;
+  font-size: 19px;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 body {
   color: #343A40;
 }
 
 a {
   text-decoration: none !important;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h1, h3, h4, h5, h2 {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

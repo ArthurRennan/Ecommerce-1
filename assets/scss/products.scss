@@ -1,0 +1,22 @@
+.products{
+    margin: 30px auto;
+    .products-container{
+        margin: 30px 0;
+        .product-items{
+            color: $grey;
+            h3{
+                font-size: 18px;
+                margin: 10px 0 0 0;
+            }
+            .product-stars{
+                font-size: 10px;
+                svg{
+                    fill: $primary-color;
+                }
+            }
+            .product-price{
+                font-size: 16px;
+            }
+        }
+    }
+}
