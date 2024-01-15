@@ -1,5 +1,122 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
-* {
+header {
+  background: #FFC107;
+  padding: 25px;
+}
+header form input[type=text] {
+  background: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: relative;
+  right: 40px;
+}
+header ul li {
+  position: relative;
+}
+header ul li .notification {
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  left: 5px;
+  background: #FF0F9A;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+header ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343A40;
+  color: #343A40;
+}
+header ul li a svg {
+  width: 23px;
+  height: 23px;
+}
+header ul li a:hover {
+  color: initial;
+}
+
+nav {
+  background: #343A40;
+  color: #fff;
+}
+nav a {
+  color: #fff;
+}
+nav ul.nav li {
+  position: relative;
+  padding: 10px;
+}
+nav ul.nav li svg {
+  margin-right: 10px;
+  width: 23px;
+  height: 23px;
+}
+nav ul.nav li ul.nav {
+  display: none;
+  position: absolute;
+  z-index: 999;
+  top: 44px;
+  left: 0;
+  background: #343A40;
+  border-top: solid #FFC107 10px;
+  width: 100%;
+}
+nav ul.nav li ul.nav li {
+  padding: 10px 25px;
+}
+nav ul.nav li:hover {
+  background: #1d2124;
+}
+nav ul.nav li:hover ul.nav {
+  display: block;
+  color: #fff;
+}
+
+.static-promotional-banners {
+  margin-top: 30px;
+}
+.static-promotional-banners .static-promotional-banners-3x {
+  background-color: #FF0F9A;
+  background-image: url("../images/parcele-em-12x.jpg");
+}
+.static-promotional-banners .static-promotional-banners-delivery {
+  background-color: #b343c3;
+  background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+.static-promotional-banners .static-promotional-banners-3x, .static-promotional-banners .static-promotional-banners-delivery {
+  background-size: cover;
+  color: #fff;
+  height: 105px;
+  padding: 20px 60px;
+}
+.static-promotional-banners .static-promotional-banners-3x svg, .static-promotional-banners .static-promotional-banners-3x p, .static-promotional-banners .static-promotional-banners-delivery svg, .static-promotional-banners .static-promotional-banners-delivery p {
+  margin: 0;
+  padding: 0;
+}
+.static-promotional-banners .static-promotional-banners-3x svg, .static-promotional-banners .static-promotional-banners-delivery svg {
+  height: 60px;
+  width: 60px;
+}
+.static-promotional-banners .static-promotional-banners-3x p, .static-promotional-banners .static-promotional-banners-delivery p {
+  font-weight: lighter;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.static-promotional-banners .static-promotional-banners-3x p strong, .static-promotional-banners .static-promotional-banners-delivery p strong {
+  font-weight: bold;
+}
+
+body {
   color: #343A40;
 }
 

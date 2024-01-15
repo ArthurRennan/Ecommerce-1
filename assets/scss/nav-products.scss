@@ -1,0 +1,38 @@
+nav{
+    background: $secondary-color;
+    color: $white;
+    a{
+        color: $white;
+    }
+    ul.nav{
+        li{
+            position: relative;
+            padding: 10px;
+            svg{
+                margin-right: 10px;
+                width: 23px;
+                height: 23px;
+            }
+            ul.nav{
+                display: none;
+                position: absolute;
+                z-index: 999;
+                top: 44px;
+                left: 0;
+                background: $secondary-color;
+                border-top: solid $primary-color 10px;
+                width: 100%;
+                li{
+                    padding: 10px 25px;
+                }
+            }
+            &:hover{
+                background: darken($color: $secondary-color, $amount: 10);
+                ul.nav{
+                    display: block;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

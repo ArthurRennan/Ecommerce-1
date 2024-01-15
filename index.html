@@ -32,14 +32,14 @@
         <!-- Container-->
         <section class="container">
             <!-- Row 1 (Header)-->
-            <article class="row">
+            <article class="row d-flex align-items-center">
                 <a href="" class="col-md-2">
                     <img src="./assets/images/logo.svg" alt="website-logo-moda-da-mulher">
                 </a>
                 <!-- Search Form-->
-                <form action="#" class="col-md-7">
+                <form action="#" class="col-md-7 d-flex align-items-center">
                     <input type="text" name="name" placeholder="Procurar roupas aqui">
-                    <button>
+                    <button class="d-flex align-items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                           </svg>
@@ -47,7 +47,7 @@
                 </form>
                 <!-- End Search Form-->
                 <!-- Nav and Items -->
-                <ul class="col-md-3 nav">
+                <ul class="col-md-3 nav d-flex justify-content-around align-items-center">
                     <li class="nav-item">
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
@@ -58,7 +58,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <span class="notification">3</span>
+                        <span class="notification d-flex align-items-center justify-content-center">3</span>
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
                                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
@@ -82,7 +82,7 @@
             <!-- Menu-->
             <ul class="nav">
                 <!-- Items-->
-                <li class="nav-item">
+                <li class="col-md-2 nav-item d-flex align-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                       </svg>
@@ -90,23 +90,23 @@
                     <!-- Sub-Menu-->
                     <ul class="nav flex-column">
                         <li>
-                            Lançamentos
+                            <a href="#">Lançamentos</a>
                         </li>
                         <li>
-                            Plus size
+                            <a href="#">Plus size</a>
                         </li>
                         <li>
-                            Moda Praia
+                            <a href="#">Moda Praia</a>
                         </li>
                         <li>
-                            Acessórios
+                            <a href="#">Acessórios</a>
                         </li>
                         <li>
-                            Promoção
+                            <a href="#">Promoção</a>
                         </li>
                     </ul>
                 </li>
-                <li class="nav-item">
+                <li class="col-md-2 nav-item d-flex align-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                       </svg>
@@ -144,41 +144,45 @@
         </section>
         <!-- End Carousel-->
         <!-- Fixed Banners 6col each-->
-        <section class="container">
+        <section class="container static-promotional-banners">
             <!-- Banners Row-->
             <section class="row">
                 <!-- Banner 1-->
                 <article class="col-md-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
-                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
-                        <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
-                      </svg>
-                      <p>
-                        Parcele em até<br> 
-                        <strong>12x sem juros</strong>
-                      </p>
+                    <div class="static-promotional-banners-3x d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z"/>
+                            <path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+                          </svg>
+                          <p>
+                            Parcele em até<br> 
+                            <strong>3x sem juros</strong>
+                          </p>
+                    </div>
                 </article>
                 <!-- Banner 2-->
                 <article class="col-md-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
-                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-                      </svg>
-                      <p>
-                        Entrega para <br>
-                        <strong>Todo o Brasil!</strong>
-                      </p>
+                    <div class="static-promotional-banners-delivery d-flex align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+                            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                          </svg>
+                          <p>
+                            Entrega para <br>
+                            <strong>Todo o País!</strong>
+                          </p>
+                    </div>
                 </article>
             </section>
         </section>
         <!-- End Fixed Banners -->
         <!-- Products Container-->
-        <section class="container">
+        <section class="container products">
             <!-- Title-->
             <h2 class="text-center">Mais Populares</h2>
             <!-- Products Row-->
             <article class="row">
                 <!-- Products Listing-->
-                <section class="products col-md-3">
+                <a href="#" class="products-container col-md-3">
                     <!-- Product Image-->
                     <img src="./assets/images/cropped-rosa.jpg" class="img-fluid" alt="pink-cropped">
                     <!-- Product Items-->
@@ -202,8 +206,8 @@
                             R$ 59,90
                           </strong>
                     </article>
-                </section>
-                <section class="products col-md-3">
+                </a>
+                <a href="#" class="products-cotainer col-md-3">
                     <!-- Product Image-->
                     <img src="./assets/images/camiseta-manga-comprida.jpg" class="img-fluid" alt="long-sleeve shirt">
                     <!-- Product Items-->
@@ -230,8 +234,8 @@
                             R$ 79,90
                           </strong>
                     </article>
-                </section>
-                <section class="products col-md-3">
+                </a>
+                <a href="#" class="products-container col-md-3">
                     <!-- Product Image-->
                     <img src="./assets/images/camiseta-listrada.jpg" class="img-fluid" alt="striped shirt">
                     <!-- Product Items-->
@@ -258,8 +262,8 @@
                             R$ 49,90
                           </strong>
                     </article>
-                </section>
-                <section class="products col-md-3">
+                </a>
+                <a href="#" class="products-container col-md-3">
                     <!-- Product Image-->
                     <img src="./assets/images/saia-plisada.jpg" class="img-fluid" alt="pleated skirt">
                     <!-- Product Items-->
@@ -286,7 +290,7 @@
                             R$ 117,90
                           </strong>
                     </article>
-                </section>
+                </a>
             </article>
             <div class="row d-flex justify-content-center">
                 <button type="button" class="btn btn-warning col-md-2">VEJA MAIS</button>
