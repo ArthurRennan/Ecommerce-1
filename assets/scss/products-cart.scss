@@ -1,0 +1,37 @@
+.products-cart{
+    figure{
+        margin: 0;
+    }
+
+    .products-cart-content{
+        h1{
+            margin: 0;
+            font-size: 32px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    .products-cart-price{
+        .product-stars{
+            svg{
+                fill: $yellow;
+            }
+        }
+        strong{
+            font-size: 40px;
+        }
+        form{
+            font-weight: 100;
+            label{
+                margin: 0;
+            }
+            button{
+                margin-top: 10px;
+            }
+        }
+        form, .product-stars svg, strong span{
+            font-size: 16px;
+        }
+    }
+}

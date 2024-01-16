@@ -184,6 +184,44 @@ footer ul li.ellipsis {
     margin: 7px 0;
   }
 }
+.products-cart figure {
+  margin: 0;
+}
+.products-cart .products-cart-content h1 {
+  margin: 0;
+  font-size: 32px;
+}
+.products-cart .products-cart-content p {
+  font-size: 18px;
+}
+.products-cart .products-cart-price .product-stars svg {
+  fill: #FFC107;
+}
+.products-cart .products-cart-price strong {
+  font-size: 40px;
+}
+.products-cart .products-cart-price form {
+  font-weight: 100;
+}
+.products-cart .products-cart-price form label {
+  margin: 0;
+}
+.products-cart .products-cart-price form button {
+  margin-top: 10px;
+}
+.products-cart .products-cart-price form, .products-cart .products-cart-price .product-stars svg, .products-cart .products-cart-price strong span {
+  font-size: 16px;
+}
+
+.breadcrumb {
+  background: #fff;
+  margin: 40px 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #FF0F9A;
+}
+
 body {
   color: #343A40;
 }
