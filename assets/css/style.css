@@ -161,6 +161,29 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+@media (max-width: 375px) {
+  .static-promotional-banners .static-promotional-banners-3x p,
+  .static-promotional-banners .static-promotional-banners-delivery p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  header form {
+    margin: 20px 0;
+    padding-top: 15px;
+  }
+  #promotional-banners {
+    display: none;
+  }
+  .products .products-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 7px 0;
+  }
+}
 body {
   color: #343A40;
 }
@@ -175,6 +198,7 @@ h2 {
 
 h1, h3, h4, h5, h2 {
   font-weight: bold;
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
